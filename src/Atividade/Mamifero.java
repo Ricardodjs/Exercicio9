@@ -2,7 +2,7 @@
 package Atividade;
 
 
-public class Mamifero extends Animal {
+public abstract class Mamifero extends Animal {
 private int patas;
 public Mamifero(String n, int p) {
 super(n);
